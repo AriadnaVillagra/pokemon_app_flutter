@@ -47,6 +47,12 @@ class _PokemonListAppBarState extends ConsumerState<PokemonListAppBar> {
   Widget build(BuildContext context) {
     final filterState = ref.watch(pokemonFilterNotifierProvider);
     final l10n = AppLocalizations.of(context)!;
+    if (_controller.text != filterState.searchQuery) {
+      _controller.text = filterState.searchQuery;
+      _controller.selection = TextSelection.fromPosition(
+        TextPosition(offset: _controller.text.length),
+      );
+    }
 
     return AppBar(
       toolbarHeight: 100,

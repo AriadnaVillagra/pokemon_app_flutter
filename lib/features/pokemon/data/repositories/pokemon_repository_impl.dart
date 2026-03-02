@@ -17,7 +17,6 @@ class PokemonRepositoryImpl implements PokemonRepository {
     final results = listResponse['results'] as List;
     final newNextUrl = listResponse['next'] as String?;
 
-    // 🔥 1️⃣ Traemos todos los detalles en paralelo
     final detailFutures = results.map((item) {
       final name = item['name'] as String;
       return apiClient.fetchPokemonDetail(name);
@@ -25,7 +24,6 @@ class PokemonRepositoryImpl implements PokemonRepository {
 
     final details = await Future.wait(detailFutures);
 
-    // 🔥 2️⃣ Construimos las entidades
     final pokemons = details.map((detail) {
       final id = detail['id'] as int;
 
@@ -96,7 +94,7 @@ class PokemonRepositoryImpl implements PokemonRepository {
       description: description,
       malePercentage: 50,
       femalePercentage: 50,
-      weaknesses: types, // simplificado
+      weaknesses: types,
     );
   }
 

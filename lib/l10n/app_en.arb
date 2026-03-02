@@ -1,0 +1,219 @@
+{
+  "@@locale": "en",
+
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "Profile screen title"
+  },
+
+  "languageSection": "Language",
+  "@languageSection": {
+    "description": "Language section title in profile screen"
+  },
+
+  "systemLanguage": "System language",
+  "@systemLanguage": {
+    "description": "Option to use device language"
+  },
+
+"foundResultsPrefix": "Found",
+"@foundResultsPrefix": {
+  "description": "Text before results number"
+},
+
+"foundResultsSuffix": "results",
+"@foundResultsSuffix": {
+  "description": "Text after results number"
+},
+
+"searchPokemonHint": "Search Pokémon...",
+"@searchPokemonHint": {
+  "description": "Placeholder text for Pokémon search field"
+},
+
+"filterTitle": "Filter by your preferences",
+"@filterTitle": {
+  "description": "Filter bottom sheet title"
+},
+
+"filterType": "Type",
+"@filterType": {
+  "description": "Filter by type label"
+},
+
+"apply": "Apply",
+"@apply": {
+  "description": "Apply filters button"
+},
+
+"cancel": "Cancel",
+"@cancel": {
+  "description": "Cancel filters button"
+},
+
+"type_fire": "Fire",
+"type_water": "Water",
+"type_grass": "Grass",
+"type_electric": "Electric",
+"type_psychic": "Psychic",
+"type_rock": "Rock",
+"type_ghost": "Ghost",
+"type_normal": "Normal",
+"type_fighting": "Fighting",
+"type_flying": "Flying",
+"type_poison": "Poison",
+"type_ground": "Ground",
+"type_bug": "Bug",
+"type_steel": "Steel",
+"type_ice": "Ice",
+"type_dragon": "Dragon",
+"type_dark": "Dark",
+"type_fairy": "Fairy",
+
+  "clearFilter": "Clear filter",
+  "@clearFilter": {
+    "description": "Button to clear active filters"
+  },
+
+  "height": "Height",
+  "@height": {
+    "description": "Label for Pokémon height"
+  },
+
+  "weight": "Weight",
+  "@weight": {
+    "description": "Label for Pokémon weight"
+  },
+
+  "abilities": "Abilities",
+  "@abilities": {
+    "description": "Abilities section title"
+  },
+
+  "onboardingContinue": "Continue",
+  "@onboardingContinue": {
+    "description": "Button to go to next onboarding page"
+  },
+
+  "onboardingStart": "Let's start",
+  "@onboardingStart": {
+    "description": "Final onboarding button to enter the app"
+  },
+
+  "onboarding1Title": "All Pokémon in one place",
+"@onboarding1Title": {
+  "description": "First onboarding screen title"
+},
+
+"onboarding1Description": "Access a complete list of Pokémon from all generations created by Nintendo.",
+"@onboarding1Description": {
+  "description": "First onboarding screen description"
+},
+
+"onboarding2Title": "Keep your Pokédex updated",
+"@onboarding2Title": {
+  "description": "Second onboarding screen title"
+},
+
+"onboarding2Description": "Register and save your profile, favorite Pokémon, settings and much more in the app.",
+"@onboarding2Description": {
+  "description": "Second onboarding screen description"
+},
+
+"errorTitle": "Something went wrong...",
+"@errorTitle": {
+  "description": "Error screen title"
+},
+
+"errorDescription": "We couldn't load the information at this time. Please check your connection or try again later.",
+"@errorDescription": {
+  "description": "Error screen description"
+},
+
+"retry": "Retry",
+"@retry": {
+  "description": "Retry button text"
+},
+
+"underConstructionTitle": "Coming soon!",
+"@underConstructionTitle": {
+  "description": "Under construction screen title"
+},
+
+"underConstructionDescription": "We're working hard to bring you this section. Come back later to discover all the updates.",
+"@underConstructionDescription": {
+  "description": "Under construction screen description"
+},
+
+"favoriteRemoved": "{name} removed from favorites",
+"@favoriteRemoved": {
+  "description": "Message when a Pokémon is removed from favorites",
+  "placeholders": {
+    "name": {
+      "type": "String"
+    }
+  }
+},
+
+"emptyFavoritesTitle": "You haven't marked any Pokémon as favorite",
+"@emptyFavoritesTitle": {
+  "description": "Empty favorites title"
+},
+
+"emptyFavoritesDescription": "Tap the heart icon on your favorite Pokémon and they will appear here.",
+"@emptyFavoritesDescription": {
+  "description": "Empty favorites description"
+},
+
+"pokemonNumber": "No. {number}",
+"@pokemonNumber": {
+  "placeholders": {
+    "number": { "type": "String" }
+  }
+},
+
+"category": "Category",
+"@category": {
+  "description": "Label for Pokémon category or power section"
+},
+
+"ability": "Ability",
+"@ability": {
+  "description": "Label for Pokémon ability stat"
+},
+
+"genderDistribution": "GENDER",
+"@genderDistribution": {
+  "description": "Title of the Pokémon gender distribution section"
+},
+
+"weaknesses": "Weaknesses",
+"@weaknesses": {
+  "description": "Title of the Pokémon weaknesses section"
+},
+
+  "profileRole": "Trainer",
+"@profileRole": {
+  "description": "User role on profile screen"
+},
+
+"languageSpanish": "Spanish",
+"@languageSpanish": {
+  "description": "Spanish language name"
+},
+
+"languageEnglish": "English",
+"@languageEnglish": {
+  "description": "English language name"
+},
+
+"appVersion": "Pokemon App v{version}",
+"@appVersion": {
+  "description": "Text showing app version",
+  "placeholders": {
+    "version": {
+      "type": "String"
+    }
+  }
+}
+}
